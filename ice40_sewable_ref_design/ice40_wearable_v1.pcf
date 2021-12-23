@@ -1,0 +1,36 @@
+########################################################################
+# Main constraints file for iCE40 wearable board
+########################################################################
+
+# Main clock (16 MHz)
+set_io clk 35
+
+# Direct USB
+set_io usbp   42
+set_io usbn   38
+set_io usbdet 37
+
+# SPI Flash
+set_io flash_csn 16 # SPI_CS# on schem
+set_io flash_sck 15 # SPI_SCK on schem
+set_io flash_io0 14 # SPI_MISO on schem
+set_io flash_io1 17 # SPI_MOSI on schem
+
+# Sewing Pad I/O Ports
+set_io io_0  36
+set_io io_1  34
+set_io io_2  32
+set_io io_3  28
+set_io io_4  27
+set_io io_5  26
+set_io io_6  21
+set_io io_7  13
+set_io io_8  12
+set_io io_9  6
+set_io io_10 2
+set_io io_11 48
+
+# On-board Peripherals
+set_io led_user   20
+set_io btn_user_n 25
+set_io rgb_led    18

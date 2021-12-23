@@ -1,0 +1,5 @@
+set_io ws 12
+
+set_io -pullup yes gpio4 27
+set_io -pullup yes gpio5 4
+set_io -pullup yes gpio6 6

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ice40_catears_v1)(type Legacy)(uri ${KIPRJMOD}/ice40_catears_v1.lib)(options "")(descr ""))
+)

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name yosyshq)(type KiCad)(uri ${KIPRJMOD}/yosyshq.pretty)(options "")(descr ""))
+)
